@@ -1,0 +1,41 @@
+@(name:Array[String], regno:Array[Int], indexno:Array[String])
+@main("Welcome to Group 29"){
+  <!DOCTYPE html>
+  <html lang="en"></html>
+  <html>
+  <head>
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
+  </head>
+  <body>
+
+  <table id="tablestyle">
+    <tr>
+      <th>Name</th>
+      <th>Registration No</th>
+      <th>Index No</th>
+    </tr>
+    <tr>
+      <td>@name(0)</td>
+      <td>@regno(0)</td>
+      <td>@indexno(0)</td>
+    </tr>
+    <tr>
+      <td>@name(1)</td>
+      <td>@regno(1)</td>
+      <td>@indexno(1)</td>
+    </tr>
+    <tr>
+      <td>@name(2)</td>
+      <td>@regno(2)</td>
+      <td>@indexno(2)</td>
+    </tr>
+    <tr>
+      <td>@name(3)</td>
+      <td>@regno(3)</td>
+      <td>@indexno(3)</td>
+    </tr>
+
+  </table>
+  </body>
+  </html>
+}
